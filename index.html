@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/ft1.png" alt="avatar do Henrique" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou o Henrique</p>
+        <h1>Sobre mim</h1>
+        <p>Sou estudante do ensino médio e tenho grande interesse em tecnologia. Gosto de programar e já tenho conhecimento em HTML, Java, LabVIEW e JavaScript. Estou sempre aprendendo e aprimorando minhas habilidades nessas áreas. Além disso, me interesso por eletrônica e mecânica, buscando entender como as coisas funcionam</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">Java</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">LabView</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://th.bing.com/th/id/OIP.BWKGLLCA8Bb75US4gN2V6wHaE8?rs=1&pid=ImgDetMain" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Torneio Juvenil de Robótica</h5>
+                        <p class="card-text">A equipe participou de uma competição de robótica, onde o robô foi desenvolvido utilizando a plataforma LEGO Mindstorms. Eles se tornaram campeões na etapa nacional e, com isso, garantiram a classificação para a etapa internacional
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://th.bing.com/th/id/OIP.EA3OoBqHGh-_Qdi5FKHRYAHaEK?rs=1&pid=ImgDetMain" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Programação em JAVA</h5>
+                        <p class="card-text">Desenvolvemos um robô para a competição FRC usando a linguagem de programação Java. O robô é capaz de se movimentar com precisão através do chassi, alcançar diferentes alturas com um elevador e coletar e ejetar game pieces de forma eficiente. Utilizamos a biblioteca WPILib e sensores para garantir um controle preciso do robô, otimizando seu desempenho durante as partidas.
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src=https://th.bing.com/th/id/OIP.s-C3uunU69ZGWL9bZ39o7gHaFA?rs=1&pid=ImgDetMain>
+                    <div class="card-body">
+                        <h5 class="card-title">Programação em LabVIEW
+                        </h5>
+                        <p class="card-text">Utilizamos o LabVIEW para criar um robô FRC com controle visual intuitivo, permitindo manobras precisas com o chassi, elevação versátil para alcançar diferentes alturas e um sistema eficiente de coleta e ejeção de game pieces. Sensores e atuadores são integrados para otimizar o desempenho do robô, com comunicação robusta entre o robô e o driver station, tudo facilitado pelas bibliotecas FRC do LabVIEW.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">TJR</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>A equipe participou de uma competição de robótica, onde o robô foi desenvolvido utilizando a plataforma LEGO Mindstorms. Eles se tornaram campeões na etapa nacional e, com isso, garantiram a classificação para a etapa internacional.</p>
+                    <img src="https://th.bing.com/th/id/OIP.BWKGLLCA8Bb75US4gN2V6wHaE8?rs=1&pid=ImgDetMain" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+            
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Programação em JAVA</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Desenvolvemos um robô para a competição FRC usando a linguagem de programação Java. O robô é capaz de se movimentar com precisão através do chassi, alcançar diferentes alturas com um elevador e coletar e ejetar game pieces de forma eficiente. Utilizamos a biblioteca WPILib e sensores para garantir um controle preciso do robô, otimizando seu desempenho durante as partidas.
+                    </p>
+                    <img src="https://th.bing.com/th/id/OIP.EA3OoBqHGh-_Qdi5FKHRYAHaEK?rs=1&pid=ImgDetMain" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Programação em LabView</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Utilizamos o LabVIEW para criar um robô FRC com controle visual intuitivo, permitindo manobras precisas com o chassi, elevação versátil para alcançar diferentes alturas e um sistema eficiente de coleta e ejeção de game pieces. Sensores e atuadores são integrados para otimizar o desempenho do robô, com comunicação robusta entre o robô e o driver station, tudo facilitado pelas bibliotecas FRC do LabVIEW.
+                        </p>
+                    <img src="https://th.bing.com/th/id/OIP.s-C3uunU69ZGWL9bZ39o7gHaFA?rs=1&pid=ImgDetMain" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+           
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/HenriqueSouza1112">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Henrique Verginelli</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
